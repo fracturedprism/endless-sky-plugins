@@ -20,7 +20,7 @@ jobs:
         file_or_dir: manifests/
   
   check_urls:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v2
